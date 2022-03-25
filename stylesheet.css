@@ -48,5 +48,111 @@ body {
 
 .card-special { 
     background-color: transparent !important;
+}
 
+.row-featured-demos {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card-img-top {
+   max-height: 400px !important;
+   object-fit: cover;
+}
+
+.card-image-featured-demos {
+    max-height: 125px !important;
+    object-fit: cover;
+}
+
+.cards-special-carousel2 {
+    min-width: 250px !important;
+}
+
+
+.card-special2 {
+    min-height: 200px;
+    object-fit: cover;
+}
+
+
+.recommende-deals-card {
+    min-width: 250px;
+}
+
+.recommende-deals-card-row-2 {
+    max-width: 350px;
+}
+
+
+a {
+    color: white;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(218, 139, 240);
+}
+
+
+
+@media(max-width: 992px) {
+    .second-container-footer {
+        display:none !important;
+    }
+    .card-special {
+        display: none !important;
+    }
+    .featured-demos-container {
+        display: none !important;
+    }
+    .featured-demos-icons {
+        display: none !important;
+    }
+    .recommende-deals-card-row-2 {
+        display: none;
+    }
+    .recommende-deals-card-3 {
+        display: none;
+    }
+}
+
+p {
+    font-size: 12px;
+}
+
+.button2 {
+ background-image: url(https://menu-static.gog-statics.com/assets/img/galaxy_button_bg.jpg);
+ background-size: 100%;
+ border-radius: 8px;
+ border-width: 0;
+ box-shadow: rgba(0, 0, 0, .73) 0 0 5px 0,#a268bd 0 0 3px 1px inset;
+ box-sizing: border-box;
+ color: #fff;
+ cursor: pointer;
+}
+
+
+
+.inner-container1 { 
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.add-to-cart-icon {
+    opacity: 0;
+}
+
+.card:hover .add-to-cart-icon {
+    opacity: 1;
+    background-color: rgb(12, 228, 12);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 10px;
 }
