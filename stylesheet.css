@@ -6,6 +6,36 @@ body {
     font-family: 'Roboto', sans-serif;
 }   
 
+body > nav > div .logo-image {
+    margin-left: -15px !important;
+}
+
+@media (max-width: 1000px) {
+    body > nav > div .logo-image {
+        margin-left: 0 !important;
+    }
+    .row-highlight-container {
+        margin-left: 0 !important;
+    }
+    .flashdeal-container {
+        margin-left: 15px !important;
+    }
+    .featured-demo-container {
+        margin-left: 15px !important;
+    }
+    .footer-container-1 {
+        margin-left: 15px !important;
+    }
+    .third-container-footer {
+        margin-left: 15px !important;
+    }
+    .recommended-deals {
+        margin-left: 15px !important;
+    }
+}
+
+
+
 .navbar {
     background-color: #2f2e2e10;
     
@@ -24,6 +54,58 @@ body {
     flex-direction: row;
     justify-content: space-between; 
 }
+
+.carousel {
+    position: relative;
+  }
+  
+  .slider-btn-left,
+  .slider-btn-right {
+    position: absolute;
+    background-color: #616161;
+    border-radius: 50px;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    opacity: 1 !important;
+    border: 4px solid #d8d8d8;
+  }
+  
+  .slider-btn-left {
+    left: -14px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .slider-btn-right {
+    right: -14px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .target {
+    position: relative;
+  }
+  .carousel-text {
+    position: absolute;
+    bottom: 10px;
+  }
+  .btn-add {
+    background-color: #a1d242;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .price {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+
+
+
 
 .row-highlight-container {
     border-bottom: 1px solid #7a7775;
